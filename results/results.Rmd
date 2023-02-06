@@ -1,5 +1,5 @@
 ---
-title: "results"
+title: "Coffee Consumption Results"
 author: "Stephanie Tanis"
 date: "2/6/2023"
 output: gihub_document
@@ -8,6 +8,11 @@ output: gihub_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+```{r, message=FALSE}
+library(tidyverse)
+```
+
 
 ## Coffee Consumption
 

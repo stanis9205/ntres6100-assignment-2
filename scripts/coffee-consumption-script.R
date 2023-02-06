@@ -1,1 +1,1 @@
-coffee-consumption  <-read.csv(file = '/home/desktop/Github/ntres6100-assignment-2/raw-data/coffee-consumption.csv')
+coffee-consumption  <-read.csv(file = '')
