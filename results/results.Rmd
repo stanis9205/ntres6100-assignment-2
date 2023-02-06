@@ -1,0 +1,28 @@
+---
+title: "results"
+author: "Stephanie Tanis"
+date: "2/6/2023"
+output: gihub_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Coffee Consumption
+
+This is my fake dataset for assignment 2 for NTRES6100.
+
+```{r}
+coffee_consumption <- matrix(c(1,1,2,2,3,6,4,1,5,4,6,2,7,0), ncol=2, byrow = TRUE)
+colnames(coffee_consumption) <- c('Day_No', 'Number_of_Coffee_Cups_Consumed')
+```
+
+### Is there an upward trend of coffee consumption later in the week?
+
+No, it appears as if there is no correlation between how late in the week it is and how much coffee I consume.  
+
+```{r}
+plot(coffee_consumption)
+```
+
